@@ -127,7 +127,7 @@ const Home = () => {
         </div>
         
       </section>
-      <MenuBar/>
+      {/* <MenuBar/> */}
     </div>
   )
 }
