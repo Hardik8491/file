@@ -5,9 +5,10 @@ const MenuBar = () => {
     <div className="menuWrap hidden lg:flex flex-col items-center justify-between fixed left-[3.4375rem] top-[5.625rem] bottom-[5.625rem] border-2 border-solid border-accent rounded-full z-[9999] w-[6.25rem] px-5 py-[3.125rem]">
       <span className="mirror">
         <svg
-          storke="currentColor"
+          stroke="currentColor"
+        
           fill="none"
-          storke-width="0"
+          stroke-width="0"
           viewBox="0 0 24 24"
           className="text-white cursor-pointer hover:text-accent"
           height="32"
