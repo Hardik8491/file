@@ -20,7 +20,7 @@ console.log("hellow world")
 
   return (
   <header className={`main ${scrolled ? `sticky-header`:''}`}>
-    <nav className="z-[9999] hidden lg:block stickyHeader  " id="header">
+    <nav className="z-[9999]  lg:block stickyHeader  " id="header">
       <div className="topbar fixed md:top-[1.875rem] lg:top-[4rem] xl:top-[1.25rem]  left-0 w-full z-[999]">
         <div className="container mx-auto sm:container lg:container xl:container 2x:container">
           <div className="flex items-center justify-between w-full topbarInner ">
@@ -53,8 +53,8 @@ console.log("hellow world")
               </a>{" "}
             </div>
 
-            <div className="hidden menuWrapper">
-              <nav className="relative hidden lg:block">
+            <div className="menuWrapper">
+              <nav className="relative  lg:block">
                 <ul className="flex flex-col lg:flex-row gap-4 lg:gap-10">
                   <li className="menuItemHasChildren relative group text-[1rem] lg:text-[1.125rem] font-Poppins font-semibold uppercase">
                     <span className="group-hover:text-accent text-accent2 pr-5 relative block cursor-pointer">
